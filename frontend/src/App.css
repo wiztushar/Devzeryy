@@ -1,0 +1,213 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #001f3f; /* Dark blue background */
+  color: #fff; /* White text color */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px white;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  color: white; /* Dark text color for container */
+  background-color: #001f3f;
+}
+
+.form-container form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"], input[type="number"], select {
+  flex: 1;
+  max-width: 300px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li .row {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+li .row div {
+  margin-right: 20px;
+}
+
+.status {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.status.pass {
+  color: #28a745;
+}
+
+.status.fail {
+  color: #dc3545;
+}
+
+/* Table Styles */
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 10px;
+  border:2px solid #ddd;
+  background-color:#007bff;;
+  border-width:20px;
+  border-color: #001f3f;
+  border-style: solid;
+ 
+
+}
+
+.table-header div {
+  flex: 1;
+  text-align: center;
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row div {
+  flex: 1;
+  text-align: center;
+}
+
+.table-row button {
+  margin-left: 20px;
+}
+
+/* search-bar */
+
+/* Container for the search bar */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Search input field */
+#search-bar {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+  font-size: 16px;
+}
+
+/* Search button */
+#search-button {
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Search button hover effect */
+#search-button:hover {
+  background-color: #0056b3;
+}
+
+/* filter */
+
+/* Container for the filter dropdown */
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+/* Label for the dropdown */
+.filter-container label {
+  margin-right: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+/* Dropdown menu */
+#filter-dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px; /* Adjust the width as needed */
+  background-color: #fff;
+}
+
+/* Dropdown menu options */
+#filter-dropdown option {
+  padding: 10px;
+}
