@@ -33,7 +33,7 @@ Before you begin, make sure you have the following installed:
 Clone this repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/yourusername/test-case-management.git
+git clone https://github.com/wiztushar/Devzeryy.git
 cd test-case-management
 ```
 
