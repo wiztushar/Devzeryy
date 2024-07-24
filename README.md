@@ -107,3 +107,8 @@ This will start the frontend application on http://localhost:3000.
 - Edit a Test Case: Click the "Edit" button next to a test case to update its details.
 
 - View Test Cases: All test cases are displayed in a table format.
+
+
+
+![Screenshot 2024-07-24 221958](https://github.com/user-attachments/assets/c85b0965-75e5-4aec-8a54-49be4c00866a)
+
