@@ -34,7 +34,7 @@ Clone this repository to your local machine using Git:
 
 ```bash
 git clone https://github.com/wiztushar/Devzeryy.git
-cd test-case-management
+cd Devzeryy
 ```
 
 
