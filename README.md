@@ -109,6 +109,9 @@ This will start the frontend application on http://localhost:3000.
 - View Test Cases: All test cases are displayed in a table format.
 
 
+## How it looks :
 
 ![Screenshot 2024-07-24 221958](https://github.com/user-attachments/assets/c85b0965-75e5-4aec-8a54-49be4c00866a)
+
+![Screenshot 2024-07-24 222422](https://github.com/user-attachments/assets/1c8e6119-6550-42b6-926f-730a4a2663a3)
 
